@@ -1,0 +1,42 @@
+/* Estilo para a seção principal */
+.heroSection {
+    padding: 4rem 1.5rem; /* Substitui py-16 px-6 */
+    background-image: url('https://github.com/lh5818181/servidor-estatico-aureaFinanceira/blob/main/fundo-marrom-hero-aurea.png?raw=true'); /* Substitui bg-[url('/src/assets/images/hero.png')] */
+  }
+  
+  
+  /* Estilo para o conteúdo */
+  .heroContent {
+    max-width: 64rem; /* Substitui max-w-4xl */
+    margin: 0 auto; /* Substitui mx-auto */
+    text-align: center; /* Substitui text-center */
+    color: white; /* Substitui text-white */
+    gap: 1.5rem; /* Substitui space-y-6 */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo para o texto principal */
+  .heroText {
+    font-size: 1.25rem; /* Substitui text-xl */
+    line-height: 1.75; /* Substitui leading-relaxed */
+    font-weight: 500; /* Substitui font-medium */
+  }
+  
+  /* Estilo para o texto secundário */
+  .heroSubText {
+    font-size: 1rem; /* Substitui text-base */
+    line-height: 1.75; /* Substitui leading-relaxed */
+    font-weight: 300; /* Substitui font-light */
+  }
+  
+  
+  /* Estilo para o texto em itálico */
+  .heroItalic {
+    font-style: italic; /* Substitui italic */
+  }
+  
+  /* Estilo para o texto em negrito */
+  .heroStrong {
+    color: white; /* Substitui text-white */
+  }

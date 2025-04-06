@@ -21,33 +21,30 @@
 
 /* Estilo para o título */
 .title {
-    font-size: 1.125rem; /* Substitui text-lg */
+    font-size: 27px; /* Substitui text-lg */
     color: #27331a; /* Substitui text-zinc-700 */
     margin-bottom: 0.5rem; /* Substitui mb-2 */
-    @font-face {
-        font-family: 'Juana';
-        src: url(./fonts/Juana-Regular.ttf) format('truetype');
-    }
+    font-family: 'EB Garamond', serif; /* Substitui font-serif */
 }
 
 /* Estilo para o subtítulo */
 .subtitle {
-    font-size: 2rem; /* Substitui text-3xl */
+    font-size: 3rem; /* Substitui text-3xl */
     font-weight: bold; /* Substitui font-bold */
     color: #5a6e3b; /* Substitui text-green-800 */
     line-height: 1.375; /* Substitui leading-snug */
-    margin: 23px auto;
-    
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif; /* Substitui font-serif */
 }
 
 
 /* Estilo para a descrição */
 .description {
-    font-size: 1.125rem; /* Substitui text-lg */
+    font-size: 20px; /* Substitui text-lg */
     font-weight: 600; /* Substitui font-semibold */
     font-family: 'Poppins', sans-serif; /* Substitui font-sans */
     color: #27331a; /* Substitui text-zinc-800 */
-    margin-bottom: 1.5rem; /* Substitui mb-6 */
+    margin-bottom: 3.5rem; /* Substitui mb-6 */
 }
 
 /* Estilo para o botão */
