@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3.5rem 3.5rem;
+    background-image: url(https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/fundo-header-aurea.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Estilo para o contêiner do texto */
+.textContainer {
+    max-width: 600px;
+    text-align: justify;
+}
+
+/* Estilo para o título */
+.title {
+    font-size: 1.125rem; /* Substitui text-lg */
+    color: #27331a; /* Substitui text-zinc-700 */
+    margin-bottom: 0.5rem; /* Substitui mb-2 */
+    @font-face {
+        font-family: 'Juana';
+        src: url(./fonts/Juana-Regular.ttf) format('truetype');
+    }
+}
+
+/* Estilo para o subtítulo */
+.subtitle {
+    font-size: 2rem; /* Substitui text-3xl */
+    font-weight: bold; /* Substitui font-bold */
+    color: #5a6e3b; /* Substitui text-green-800 */
+    line-height: 1.375; /* Substitui leading-snug */
+    margin: 23px auto;
+    
+}
+
+
+/* Estilo para a descrição */
+.description {
+    font-size: 1.125rem; /* Substitui text-lg */
+    font-weight: 600; /* Substitui font-semibold */
+    font-family: 'Poppins', sans-serif; /* Substitui font-sans */
+    color: #27331a; /* Substitui text-zinc-800 */
+    margin-bottom: 1.5rem; /* Substitui mb-6 */
+}
+
+/* Estilo para o botão */
+.button {
+    background-color: #00bf63; /* Substitui bg-green-600 */
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Substitui font-sans */
+    font-size: small;
+    padding: 0.75rem 1.5rem; /* Substitui py-3 px-6 */
+    border-radius: 0.375rem; /* Substitui rounded-md */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Substitui shadow-md */
+    transition: all 0.3s ease-in-out; /* Substitui transition-all duration-300 */
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #15803d; /* Substitui hover:bg-green-700 */
+}
+
+/* Estilo para o contêiner da imagem */
+.mockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Ajuste o tamanho máximo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Estilo para a imagem */
+.image {
+    width: 96%;
+    max-width: 600px; /* Substitui max-w-2xl */
+}
