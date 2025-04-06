@@ -16,6 +16,7 @@
 .textContainer {
     max-width: 600px;
     text-align: justify;
+    margin-left: 22px;
 }
 
 /* Estilo para o título */
