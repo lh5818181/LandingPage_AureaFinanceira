@@ -6,11 +6,11 @@ const Hero: React.FC = () => {
     <section className={styles.heroSection}>
       <div className={styles.heroContent}>
         <p className={styles.heroText}>
-          <strong className={styles.heroStrong}>O Notion Áurea Financeira</strong> é um sistema <strong>prático e intuitivo</strong> que ajuda a <strong>organizar finanças, definir metas</strong> e <strong>tomar decisões</strong> com clareza e segurança.
+          <strong className={styles.heroStrong}>O Notion Áurea Financeira</strong> é um sistema <span className={styles.Fbold}>prático e intuitivo</span> que ajuda a <span className={styles.Fbold}>organizar finanças, definir metas</span> e <span className={styles.Fbold}>tomar decisões</span> com clareza e segurança.
         </p>
 
         <p className={styles.heroSubText}>
-          Baseado em <strong>economia comportamental</strong>, oferece um método realista para <span className={styles.heroItalic}>transformar sua relação com o dinheiro</span>, <span className={styles.heroItalic}>sem promessas mágicas ou radicalismo.</span>
+          Baseado em <span className={styles.Fbold}>economia comportamental</span>, oferece um método realista para <span className={styles.Fbold}>transformar sua relação com o dinheiro</span>, <span className={styles.heroItalic}>sem promessas mágicas ou radicalismo.</span>
         </p>
       </div>
     </section>

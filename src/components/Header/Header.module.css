@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    padding: 3.5rem 3.5rem;
+    padding: 12.5rem 3.5rem;
     background-image: url(https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/fundo-header-aurea.png);
     background-size: cover;
     background-position: center;
@@ -24,7 +24,14 @@
     font-size: 27px; /* Substitui text-lg */
     color: #27331a; /* Substitui text-zinc-700 */
     margin-bottom: 0.5rem; /* Substitui mb-2 */
-    font-family: 'EB Garamond', serif; /* Substitui font-serif */
+    font-family: 'Juana', serif; /* Certifique-se de usar a fonte corretamente */
+}
+
+@font-face {
+    font-family: 'Juana';
+    src: url('/assets/fonts/juana-regular.ttf') format('truetype'); /* Verifique se o caminho está correto */
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Estilo para o subtítulo */
@@ -34,7 +41,7 @@
     color: #5a6e3b; /* Substitui text-green-800 */
     line-height: 1.375; /* Substitui leading-snug */
     margin: 0 auto;
-    font-family: 'EB Garamond', serif; /* Substitui font-serif */
+    font-family: 'Juana', serif; /* Substitui font-serif */
 }
 
 
