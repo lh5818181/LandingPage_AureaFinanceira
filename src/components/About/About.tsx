@@ -37,7 +37,7 @@ const About: React.FC = () => {
               'Valorizar seu tempo e consumir de forma mais inteligente.',
             ].map((item, idx) => (
               <li key={idx} className={styles.aboutItem}>
-                <span className={styles.aboutItemIndex}>{idx + 1}</span>
+                <span className={styles.aboutItemIndex}>{`${idx + 1}.`}</span>
                 {item}
               </li>
             ))}
