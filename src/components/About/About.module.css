@@ -38,12 +38,12 @@
 }
 
 .aboutHighlightBox {
-  background-color: #dbe7cd;
+  background-color: #bed5b9;
   padding: 12px 16px;
-  border-radius: 8px;
+  border-radius: 4px;
   margin-bottom: 16px;
   font-size: 14px;
-  color: #1d1d1d;
+  color: #27331a;
   font-family: 'Poppins';
 }
 
@@ -53,7 +53,7 @@
 
 .aboutDescription {
   font-size: 16px;
-  color: #4a4a4a;
+  color: #27331a;
   font-family: 'Poppins';
 }
 
@@ -63,7 +63,7 @@
 
 .aboutListIntro {
   font-size: 14px;
-  color: #4a4a4a;
+  color: #27331a;
   margin-bottom: 16px;
   font-family: 'Poppins';
 }
@@ -82,7 +82,7 @@
   border-radius: 50px;
   padding: 8px 16px;
   font-weight: 500;
-  color: #1d1d1d;
+  color: #000;
   margin-bottom: 12px;
   font-family: 'Poppins';
   margin-bottom: 12px;
