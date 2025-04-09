@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
-    padding: 12.5rem 3.5rem;
-    background-image: url(https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/fundo-header-aurea.png);
+    padding: 5rem 3.5rem;
+    background-image: url(https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/IMGFundo/1-FundoHeader.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 
 /* Estilo para a descrição */
 .description {
-    font-size: 20px; /* Substitui text-lg */
+    font-size: 24px; /* Substitui text-lg */
     font-weight: 600; /* Substitui font-semibold */
     font-family: 'Poppins', sans-serif; /* Substitui font-sans */
     color: #27331a; /* Substitui text-zinc-800 */
@@ -79,11 +79,11 @@
     align-items: center;
     width: 100%;
     max-width: 600px; /* Ajuste o tamanho máximo da imagem */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+
 }
 
 /* Estilo para a imagem */
 .image {
-    width: 96%;
+    width: 92%;
     max-width: 600px; /* Substitui max-w-2xl */
 }

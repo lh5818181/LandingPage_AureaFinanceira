@@ -24,7 +24,7 @@ const Header: React.FC = () => {
       {/* Imagem à direita */}
       <div className={styles.mockup}>
         <img
-          src="https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/Mockups/Dispositvos-eletronicos.png"
+          src="https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/ICONES/1-HeaderMockupDispositivosSemFundo.png"
           alt="Mockups da plataforma Áurea Financeira"
           className={styles.image}
         />

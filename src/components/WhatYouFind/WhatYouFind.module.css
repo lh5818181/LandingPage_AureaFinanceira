@@ -1,0 +1,80 @@
+.whatYouFind {
+    background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/IMGFundo/5-FundoWhatYouFind.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: 'Juana';
+    font-size: 2rem;
+    font-weight: 500;
+    color: #111111;
+  }
+  
+  .title span {
+    font-weight: 600;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .cards {
+      flex-direction: row;
+      justify-content: center;
+      align-items: stretch;
+      gap: 2rem;
+    }
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 2px solid #b2935b;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .icon {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  
+  .cardTitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1c211b;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .cardText {
+    font-size: 0.95rem;
+    color: #1c211b;
+    font-style: italic; /* Adiciona itálico ao texto */
+    font-family: 'Poppins', sans-serif;
+}
+  

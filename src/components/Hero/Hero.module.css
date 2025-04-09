@@ -1,20 +1,23 @@
 /* Estilo para a seção principal */
 .heroSection {
-    padding: 20rem 1.5rem; /* Substitui py-16 px-6 */
-    background-image: url('https://github.com/lh5818181/servidor-estatico-aureaFinanceira/blob/main/fundo-marrom-hero-aurea.png?raw=true'); /* Substitui bg-[url('/src/assets/images/hero.png')] */
-  }
+  padding: 4rem 1.5rem; /* Substitui py-16 px-6 */
+  background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/IMGFundo/2-FundoHero.jpg'); /* Substitui bg-[url('/src/assets/images/hero.png')] */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-size: cover; /* Ajusta a imagem para ocupar 100% da largura */
+  background-position: center; /* Centraliza a imagem */
+}
   
   
   /* Estilo para o conteúdo */
   .heroContent {
-    max-width: 64rem; /* Substitui max-w-4xl */
-    margin: 0 auto; /* Substitui mx-auto */
-    text-align: center; /* Substitui text-center */
-    color: white; /* Substitui text-white */
-    gap: 1.5rem; /* Substitui space-y-6 */
+    max-width: 64rem;
+    text-align: center;
+    color: white;
+    gap: 1.5rem;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    margin: auto;
   }
   
   /* Estilo para o texto principal */
