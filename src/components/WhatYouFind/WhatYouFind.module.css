@@ -71,3 +71,68 @@
     font-family: 'Poppins', sans-serif;
 }
   
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .whatYouFind {
+      padding: 3rem 1rem; /* Reduzir o padding */
+      background-position: center; /* Manter o posicionamento da imagem */
+  }
+
+  .container {
+      max-width: 90%; /* Ajustar largura do contêiner */
+      gap: 2rem; /* Reduzir o espaçamento entre os elementos */
+  }
+
+  .title {
+      font-size: 1.8rem; /* Reduzir tamanho da fonte */
+  }
+
+  .cards {
+      gap: 1.5rem; /* Reduzir espaçamento entre os cartões */
+  }
+
+  .card {
+      max-width: 280px; /* Reduzir a largura máxima do cartão */
+      padding: 1.5rem 1rem; /* Ajustar padding */
+  }
+
+  .cardText {
+      font-size: 0.9rem; /* Ajustar tamanho do texto */
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+  .whatYouFind {
+      padding: 2rem 0.5rem; /* Reduzir ainda mais o padding */
+      background-position: top; /* Ajustar a posição da imagem de fundo */
+  }
+
+  .container {
+      max-width: 95%; /* Ajustar ainda mais a largura do contêiner */
+  }
+
+  .title {
+      font-size: 1.5rem; /* Reduzir o tamanho da fonte do título */
+  }
+
+  .cards {
+      flex-direction: column; /* Reorganizar os cartões em uma única coluna */
+      gap: 1rem; /* Reduzir o espaçamento */
+  }
+
+  .card {
+      max-width: 100%; /* Permitir que os cartões ocupem 100% da largura */
+      padding: 1rem; /* Ajustar padding */
+  }
+
+  .cardText {
+      font-size: 0.85rem; /* Reduzir tamanho da fonte do texto */
+  }
+
+  .icon {
+      width: 48px; /* Diminuir o tamanho do ícone */
+      height: 48px;
+  }
+}

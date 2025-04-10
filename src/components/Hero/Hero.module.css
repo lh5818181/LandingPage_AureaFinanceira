@@ -49,3 +49,50 @@
   .heroStrong {
     color: white; /* Substitui text-white */
   }
+
+  /* Responsividade para tablets */
+@media (max-width: 768px) {
+  .heroSection {
+      padding: 3rem 1rem; /* Reduzir padding */
+  }
+
+  .heroContent {
+      max-width: 90%; /* Reduzir largura do contêiner */
+      gap: 1rem; /* Ajustar espaçamento */
+  }
+
+  .heroText {
+      font-size: 25px; /* Reduzir tamanho da fonte */
+  }
+
+  .heroSubText {
+      font-size: 20px; /* Reduzir tamanho da fonte */
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+  .heroSection {
+      padding: 2rem 0.5rem; /* Ajustar padding para telas menores */
+      background-position: top; /* Ajustar posição da imagem */
+  }
+
+  .heroContent {
+      max-width: 95%; /* Ajustar largura para ocupar mais espaço */
+  }
+
+  .heroText {
+      font-size: 20px; /* Diminuir tamanho da fonte */
+      line-height: 1.5; /* Ajustar espaçamento entre linhas */
+  }
+
+  .heroSubText {
+      font-size: 18px; /* Diminuir ainda mais o tamanho da fonte */
+      line-height: 1.4; /* Ajustar espaçamento entre linhas */
+  }
+
+  .Fbold {
+      font-size: 18px; /* Ajustar tamanho do texto em negrito */
+  }
+}
+

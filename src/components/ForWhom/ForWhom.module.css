@@ -67,3 +67,48 @@
   object-fit: cover;
   border-radius: 1rem;
 }
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .forwhom-content {
+      flex-direction: column; /* Altera o layout para uma coluna */
+      gap: 3rem; /* Reduz o espaçamento entre os blocos */
+  }
+
+  .forwhom-left {
+      align-items: center; /* Centraliza o conteúdo */
+      text-align: center; /* Alinha o texto ao centro */
+  }
+
+  .forwhom-list {
+      align-items: center; /* Centraliza os itens da lista */
+  }
+
+  .forwhom-image {
+      max-width: 300px; /* Reduz o tamanho máximo da imagem */
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+  .forwhom {
+      padding: 2rem 1rem; /* Reduz o padding */
+  }
+
+  .forwhom-content {
+      gap: 2rem; /* Diminui o espaçamento */
+  }
+
+  .forwhom-title {
+      font-size: 1.5rem; /* Reduz o tamanho do título */
+  }
+
+  .forwhom-list li {
+      font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+  }
+
+  .forwhom-image {
+      max-width: 100%; /* Permite que a imagem ocupe 100% da largura disponível */
+      border-radius: 0.5rem; /* Ajusta os cantos arredondados */
+  }
+}

@@ -103,3 +103,81 @@
   font-size: 12px;
 }
 
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .aboutContainer {
+      flex-direction: column; /* Organizar em uma única coluna */
+      gap: 24px; /* Reduzir espaçamento entre os elementos */
+      padding: 0 8px; /* Ajustar padding */
+  }
+
+  .aboutText {
+      text-align: center; /* Centralizar texto */
+  }
+
+  .aboutTitle {
+      font-size: 28px; /* Reduzir tamanho da fonte */
+  }
+
+  .aboutHighlightBox {
+      font-size: 12px; /* Ajustar tamanho da fonte */
+  }
+
+  .aboutDescription {
+      font-size: 14px; /* Ajustar tamanho da descrição */
+  }
+
+  .aboutList {
+      text-align: center; /* Centralizar a lista */
+  }
+
+  .aboutItems {
+      gap: 8px; /* Reduzir o espaçamento entre os itens */
+  }
+
+  .aboutItem {
+      font-size: 13px; /* Ajustar tamanho da fonte dos itens */
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+  .aboutSection {
+      padding: 40px 0; /* Reduzir o padding geral */
+      background-size: cover; /* Manter o fundo adaptado */
+  }
+
+  .aboutContainer {
+      gap: 16px; /* Reduzir mais o espaçamento entre os elementos */
+      padding: 0 4px; /* Ajustar padding para telas menores */
+  }
+
+  .aboutTitle {
+      font-size: 24px; /* Reduzir ainda mais o tamanho da fonte */
+  }
+
+  .aboutHighlightBox {
+      font-size: 11px; /* Ajustar tamanho da fonte */
+      padding: 10px; /* Reduzir padding da caixa */
+  }
+
+  .aboutDescription {
+      font-size: 12px; /* Reduzir tamanho do texto descritivo */
+  }
+
+  .aboutItems {
+      gap: 6px; /* Ajustar espaçamento entre itens */
+  }
+
+  .aboutItem {
+      font-size: 12px; /* Ajustar o tamanho da fonte */
+      padding: 6px; /* Reduzir o padding */
+  }
+
+  .aboutItemIndex {
+      width: 20px; /* Ajustar tamanho do índice */
+      height: 20px;
+      font-size: 10px; /* Ajustar tamanho da fonte do índice */
+  }
+}
