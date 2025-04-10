@@ -1,45 +1,55 @@
 .gallery {
-    background-color: #f3f6f4;
-    padding: 4rem 1.5rem;
-    text-align: center;
+  background-color: #f3f6f4;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3e3e3e;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  line-height: 1.4;
+}
+
+.sliderWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.sliderTrack {
+  display: flex;
+  gap: 1.5rem;
+  animation: slide 25s linear infinite;
+}
+
+.gridItem {
+  flex: 0 0 220px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.gridItem:hover {
+  transform: scale(1.03);
+}
+
+.gridItem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
   }
-  
-  .title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #3e3e3e;
-    text-transform: uppercase;
-    margin-bottom: 2.5rem;
-    line-height: 1.4;
+  100% {
+    transform: translateX(-50%);
   }
-  
-  .slider {
-    position: relative;
-    width: 100%;
-    max-width: 420px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 16px;
-    background: #ffffff;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    padding: 1rem;
-  }
-  
-  .sliderTrack {
-    display: flex;
-    transition: transform 0.6s ease-in-out;
-  }
-  
-  .slide {
-    min-width: 100%;
-    flex-shrink: 0;
-  }
-  
-  .slide img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 10px;
-  }
-  
+}

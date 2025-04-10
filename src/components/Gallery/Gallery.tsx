@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styles from './Gallery.module.css';
 
 const images = [
@@ -11,15 +11,7 @@ const images = [
 ];
 
 const Gallery = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 4000); // troca a cada 4 segundos
-
-    return () => clearInterval(interval);
-  }, []);
+  const duplicatedImages = [...images, ...images]; // duplica para loop contínuo
 
   return (
     <section className={styles.gallery}>
@@ -27,13 +19,10 @@ const Gallery = () => {
         Galeria de Imagens Interativa <br /> Explore Fotos do Notion
       </h2>
 
-      <div className={styles.slider}>
-        <div
-          className={styles.sliderTrack}
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
-          {images.map((src, index) => (
-            <div className={styles.slide} key={index}>
+      <div className={styles.sliderWrapper}>
+        <div className={styles.sliderTrack}>
+          {duplicatedImages.map((src, index) => (
+            <div className={styles.gridItem} key={index}>
               <img src={src} alt={`Imagem ${index + 1}`} />
             </div>
           ))}
