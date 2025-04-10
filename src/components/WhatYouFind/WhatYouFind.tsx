@@ -34,21 +34,21 @@ const WhatYouFind = () => {
           </div>
 
           <div className={styles.card}>
-            <img src="###" alt="Ícone de tarefas" className={styles.icon} />
+            <img src="https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/ICONES/IconBussolaWhatYouFindSemFundo.png" alt="Ícone de Bussola" className={styles.icon} />
             <h3 className={styles.cardTitle}>Bússola Comportamental</h3>
             <p className={styles.cardText}>
             Um guia para identificar seus padrões financeiros, compreender como seu tempo se traduz em dinheiro e tomar decisões mais conscientes com base no valor real da sua hora de trabalho.
             </p>
           </div>
           <div className={styles.card}>
-            <img src="###" alt="Ícone de metas" className={styles.icon} />
+            <img src="https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/ICONES/IconLampadaWhatYouFindSemFundo.png" alt="Ícone de Inteligencia de Consumo" className={styles.icon} />
             <h3 className={styles.cardTitle}>Inteligência do Consumo</h3>
             <p className={styles.cardText}>
             Ferramenta para avaliar o impacto real dos seus gastos não essenciais, mostrando como pequenas decisões podem influenciar suas finanças no longo prazo e ajudando você a consumir de forma mais estratégica.
             </p>
           </div>
           <div className={styles.card}>
-            <img src="###" alt="Ícone de dashboard" className={styles.icon} />
+            <img src="https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/ICONES/IconFonteWhatYouFindSemFundo.png" alt="Ícone de Lista de desejos" className={styles.icon} />
             <h3 className={styles.cardTitle}>Lista de Desejos</h3>
             <p className={styles.cardText}>
             Um espaço para visualizar, planejar e concretizar seus sonhos financeiros, transformando vontades em objetivos alcançáveis. Com reflexões guiadas, você entenderá o real impacto e propósito de cada desejo, ajudando a priorizar o que realmente importa e tornando sua jornada financeira mais significativa.
