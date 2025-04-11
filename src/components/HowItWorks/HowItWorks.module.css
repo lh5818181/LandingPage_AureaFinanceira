@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Juana';
+  src: url('/assets/fonts/juana-regular.ttf') format('truetype'); /* Verifique se o caminho está correto */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.howItWorkSection {
+  background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/IMGFundo/8-FundoHowItWorks.jpg'); /* substitua manualmente */
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: 'Juana';
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.number {
+  font-family: 'Juana', serif;
+  font-size: 90px;
+  font-weight: bold;
+  color: #b2935b;
+  line-height: 1;
+  margin-top: 0.2rem;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.stepTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 15px;
+  margin-top: 0;
+  color: #e0e0e0;
+  line-height: 1.5;
+}

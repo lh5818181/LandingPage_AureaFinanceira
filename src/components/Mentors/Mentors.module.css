@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Juana';
+    src: url('/assets/fonts/juana-regular.ttf') format('truetype'); /* Verifique se o caminho está correto */
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.mentorsSection {
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.textContent {
+  flex: 1;
+  min-width: 300px;
+}
+
+.label {
+  font-size: 0.85rem;
+  background-color: #5a6e3b;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.names {
+  font-family: 'Juana', serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #b2935b;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  color: #e6e6e6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.imageContainer {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.mentorImage {
+  max-width: 100%;
+  height: 480px;
+  border-radius: 12px;
+}

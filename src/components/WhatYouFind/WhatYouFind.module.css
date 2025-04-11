@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Juana';
+  src: url('/assets/fonts/juana-regular.ttf') format('truetype'); /* Verifique se o caminho está correto */
+  font-weight: 400;
+  font-style: normal;
+}
+
 .whatYouFind {
     background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/IMGFundo/5-FundoWhatYouFind.jpg');
     background-size: cover;

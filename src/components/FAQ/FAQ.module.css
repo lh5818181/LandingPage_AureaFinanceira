@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Juana';
+    src: url('/assets/fonts/juana-regular.ttf') format('truetype'); /* Verifique se o caminho está correto */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.faqSection {
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Juana', serif;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: #f2f2f2;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.accordionItem {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.answer {
+  padding: 0 1.5rem 1.2rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.answerWrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+  }
+  
+  .answerWrapper.active {
+    max-height: 300px; /* ajuste se necessário */
+    padding-bottom: 1rem;
+  }
+  
