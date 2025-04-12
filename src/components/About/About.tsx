@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './About.module.css';
 
+
 const About: React.FC = () => {
   return (
     <section className={styles.aboutSection}>
@@ -37,7 +38,7 @@ const About: React.FC = () => {
               'Valorizar seu tempo e consumir de forma mais inteligente.',
             ].map((item, idx) => (
               <li key={idx} className={styles.aboutItem}>
-                <span className={styles.aboutItemIndex}>{`${idx + 1}.`}</span>
+                <span className={styles.aboutItemIndex}>{`${idx + 1}`}</span>
                 {item}
               </li>
             ))}

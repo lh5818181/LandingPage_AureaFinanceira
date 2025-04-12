@@ -13,7 +13,7 @@
     max-width: 64rem;
     text-align: center;
     color: white;
-    gap: 1.5rem;
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
@@ -23,15 +23,15 @@
   /* Estilo para o texto principal */
   .heroText {
     font-size: 30px; /* Substitui text-xl */
-    line-height: 1.75; /* Substitui leading-relaxed */
     font-weight: 500; /* Substitui font-medium */
+    margin-bottom: 0;
   }
   
   /* Estilo para o texto secundário */
   .heroSubText {
-    font-size: 25px; /* Substitui text-base */
-    line-height: 1.75; /* Substitui leading-relaxed */
+    font-size: 30px; /* Substitui text-base */
     font-weight: 300; /* Substitui font-light */
+    margin-top: 0;
   }
 
   .Fbold {

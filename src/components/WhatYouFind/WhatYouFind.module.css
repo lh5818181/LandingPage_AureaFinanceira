@@ -9,7 +9,7 @@
     background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/IMGFundo/5-FundoWhatYouFind.jpg');
     background-size: cover;
     background-position: center;
-    padding: 5rem 1.5rem;
+    padding: 5rem 6rem;
     display: flex;
     justify-content: center;
   }
@@ -37,9 +37,10 @@
   
   .cards {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    flex-wrap: wrap;
+        flex-direction: row;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
   }
   
   
@@ -58,8 +59,8 @@
   }
   
   .icon {
-    width: 56px;
-    height: 56px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     margin: 0 auto;
   }
@@ -69,6 +70,7 @@
     font-weight: 600;
     color: #1c211b;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
   }
   
   .cardText {
@@ -76,6 +78,7 @@
     color: #1c211b;
     font-style: italic; /* Adiciona itálico ao texto */
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
   
 
