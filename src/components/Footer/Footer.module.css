@@ -55,7 +55,7 @@
 
 .question {
   font-family: 'Juana', serif;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   font-weight: 600;
   text-align: center; 
@@ -67,8 +67,8 @@
   gap: 0.5rem;
   background-color: #25D366;
   color: #fff;
-  padding: 0.65rem 1.2rem;
-  font-size: 0.875rem;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 8px;
   text-decoration: none;

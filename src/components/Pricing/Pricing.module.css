@@ -74,6 +74,7 @@
   flex-wrap: wrap;
   max-width: 900px;
   margin: 260px auto;
+  margin-bottom: 100px;
 }
 
 .garantiaImage {
