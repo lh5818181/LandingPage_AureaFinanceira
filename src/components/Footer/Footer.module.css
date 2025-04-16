@@ -1,89 +1,88 @@
 @font-face {
-    font-family: 'Juana';
-    src: url('/assets/fonts/juana-regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .footer {
-    background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/ICONES/FundoFooter.jpg'); /* Substitua com sua URL real */
-    background-size: cover;
-    background-position: center;
-    padding: 3rem 1.5rem;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-  }
-  
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.65);
-    padding: 2rem;
-    border-radius: 16px;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-  }
-  
-  .left {
-    flex: 1;
-    min-width: 250px;
-  }
-  
-  .brand {
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-  }
-  
-  .rights {
-    font-size: 0.9rem;
-    color: #ccc;
-  }
-  
-  .right {
-    text-align: right;
-    flex: 1;
-    min-width: 250px;
-  }
-  
-  .question {
-    font-family: 'Juana', serif;
-    font-size: 1.05rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-  }
-  
-  .whatsappButton {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: #25D366;
-    color: #fff;
-    padding: 0.65rem 1.2rem;
-    font-size: 0.875rem;
-    font-weight: 600;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .whatsappButton:hover {
-    background-color: #1ebe5d;
-  }
-  
-  @media (max-width: 640px) {
-    .container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .right {
-      text-align: center;
-    }
-  }
-  
+  font-family: 'Juana';
+  src: url('/assets/fonts/juana-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+  background-image: url('https://raw.githubusercontent.com/lh5818181/servidor-estatico-aureaFinanceira/refs/heads/main/ICONES/FundoFooter.jpg'); /* Substitua com sua URL real */
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.brand {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: #ccc;
+  margin-left: 10px;
+}
+
+.rights {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.right {
+  text-align: right;
+  flex: 1;
+  min-width: 250px;
+}
+
+.question {
+  font-family: 'Juana', serif;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-align: center; 
+}
+
+.whatsappButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #25D366;
+  color: #fff;
+  padding: 0.65rem 1.2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsappButton:hover {
+  background-color: #1ebe5d;
+}
+
+.bottomBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #000000;
+      padding: 0 10px;
+}

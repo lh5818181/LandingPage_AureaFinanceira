@@ -9,16 +9,15 @@
   background-color: #000000;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
-  padding: 4rem 2rem;
+  padding: 16rem 2rem;
   text-align: center;
 }
 
 .pricingBox {
   background-color: #5a6e3b;
-  padding: 2.5rem 2rem;
+  padding: 2rem 5rem;
   border-radius: 12px;
   display: inline-block;
-  margin-bottom: 3rem;
   max-width: 400px;
   width: 100%;
 }
@@ -31,7 +30,7 @@
 }
 
 .price {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
   color: #ffffff;
   margin: 0.3rem 0;
@@ -53,7 +52,7 @@
 
 .button {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1.5rem 5rem;
   background-color: #00cc6a;
   color: #fff;
   font-weight: 700;
@@ -74,11 +73,11 @@
   gap: 2rem;
   flex-wrap: wrap;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 260px auto;
 }
 
 .garantiaImage {
-  max-width: 150px;
+  max-width: 240px;
   height: auto;
 }
 

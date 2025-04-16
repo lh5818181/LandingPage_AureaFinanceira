@@ -8,9 +8,9 @@ const Pricing = () => {
         <p className={styles.description}>Tudo isso por apenas 12x de</p>
         <h2 className={styles.price}>R$ 9,74</h2>
         <p className={styles.pix}>ou R$ 297 à vista no Pix.</p>
-        <p className={styles.ctaText}>Acesse agora e transforme suas finanças com leveza!</p>
-        <a href="#seu-link-de-compra" className={styles.button}>QUERO O MEU NOTION</a>
       </div>
+      <p className={styles.ctaText}>Acesse agora e transforme suas finanças com leveza!</p>
+      <a href="#seu-link-de-compra" className={styles.button}>QUERO O MEU NOTION</a>
 
       <div className={styles.garantiaBox}>
         <img
