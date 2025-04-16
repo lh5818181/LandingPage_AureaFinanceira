@@ -15,9 +15,6 @@ const Gallery = () => {
 
   return (
     <section className={styles.gallery}>
-      <h2 className={styles.title}>
-        Galeria de Imagens Interativa <br /> Explore Fotos do Notion
-      </h2>
 
       <div className={styles.sliderWrapper}>
         <div className={styles.sliderTrack}>

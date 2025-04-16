@@ -28,9 +28,10 @@
 }
 
 .forwhom-text-block {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
+      display: flex  ;
+      flex-direction: column;
+      gap: 1.25rem;
+      align-items: center;
 }
 
 .forwhom-title {

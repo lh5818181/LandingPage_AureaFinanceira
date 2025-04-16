@@ -18,8 +18,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 6rem;
-  padding: 0 12rem;
+  gap: 8rem;
+  padding: 0 14rem;
 }
 
 .aboutText {
@@ -31,6 +31,7 @@
   font-weight: 400;
   font-family: 'Juana';
   color: #27331a;
+  margin-top: 0
 }
 
 .highlight {
@@ -66,17 +67,18 @@
   color: #27331a;
   margin-bottom: 16px;
   font-family: 'Poppins';
+  margin-top: 0;
 }
 
 .aboutItems {
   list-style: none;
-  padding: 0;
+  padding: 2px;
   margin: 0;
 }
 .aboutItem {
       display: flex  ;
       align-items: center;
-      gap: 12px;
+      gap: 6px;
       background-color: transparent;
       font-size: 14px;
       border-radius: 100px;
@@ -99,7 +101,6 @@
     line-height: 30px;
     font-size: 1.5rem;
     color: #333;
-    margin-right: 10px;
   }
 
 

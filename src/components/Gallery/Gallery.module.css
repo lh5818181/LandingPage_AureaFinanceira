@@ -7,14 +7,6 @@
   background-position: center;
 }
 
-.title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #3e3e3e;
-  text-transform: uppercase;
-  margin-bottom: 2.5rem;
-  line-height: 1.4;
-}
 
 .sliderWrapper {
   overflow: hidden;
