@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           Cuidar do dinheiro não precisa ser difícil.
         </p>
 
-        <a href="#" className={styles.button}>
+        <a href="" className={styles.button}>
           QUERO ORGANIZAR MEU DINHEIRO
         </a>
       </div>

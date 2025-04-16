@@ -87,3 +87,66 @@
     width: 92%;
     max-width: 600px; /* Substitui max-w-2xl */
 }
+
+
+/* Responsividade para tablets */
+@media (max-width: 1080px) {
+    .header {
+        flex-direction: column;
+        padding: 3rem 2rem;
+    }
+
+    .textContainer {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .mockup {
+        max-width: 500px;
+    }
+
+    .image {
+        width: 85%;
+    }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+    .header {
+        padding: 2rem 1rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .mockup {
+        max-width: 400px;
+    }
+
+    .image {
+        width: 80%;
+    }
+}

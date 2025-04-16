@@ -29,18 +29,20 @@ const Gallery = () => {
     let scrollAmount = 0;
     const scrollSpeed = 1; // Velocidade do movimento (ajuste conforme necessário)
 
+    let animationFrameId: number;
+
     const animate = () => {
       scrollAmount += scrollSpeed;
       if (scrollAmount >= slider.scrollWidth / 2) {
         scrollAmount = 0; // Reinicia o scroll para criar o loop infinito
       }
       slider.scrollLeft = scrollAmount;
-      requestAnimationFrame(animate);
+      animationFrameId = requestAnimationFrame(animate);
     };
 
     animate();
 
-    return () => cancelAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationFrameId);
   }, []);
 
   return (

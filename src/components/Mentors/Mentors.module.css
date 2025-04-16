@@ -64,3 +64,47 @@
   height: 480px;
   border-radius: 12px;
 }
+
+
+/* Responsividade para tablets */
+@media (max-width: 1080px) {
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .textContent {
+    text-align: center;
+  }
+
+  .names {
+    font-size: 28px;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+  }
+
+  .mentorImage {
+    height: 400px;
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+  .mentorsSection {
+    padding: 3rem 1rem;
+  }
+
+  .names {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 0.85rem;
+  }
+
+  .mentorImage {
+    height: 300px;
+  }
+}

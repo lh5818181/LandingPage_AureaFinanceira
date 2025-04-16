@@ -61,3 +61,27 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
+/* Responsividade para tablets */
+@media (max-width: 1080px) {
+  .gridItem {
+    width: 150px; /* Reduz o tamanho das imagens */
+    margin: 0 8px;
+  }
+
+  .modalContent img {
+    width: 70%; /* Ajusta o tamanho da imagem no modal */
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+  .gridItem {
+    width: 120px; /* Reduz ainda mais o tamanho das imagens */
+    margin: 0 5px;
+  }
+
+  .modalContent img {
+    width: 90%; /* Ajusta o tamanho da imagem no modal */
+  }
+}

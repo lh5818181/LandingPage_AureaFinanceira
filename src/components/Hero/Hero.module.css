@@ -50,4 +50,40 @@
     color: white; /* Substitui text-white */
   }
 
-  
+  /* Responsividade para tablets */
+@media (max-width: 1080px) {
+  .heroSection {
+    padding: 3rem 2rem;
+  }
+
+  .heroContent {
+    max-width: 48rem;
+  }
+
+  .heroText {
+    font-size: 24px;
+  }
+
+  .heroSubText {
+    font-size: 24px;
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 2rem 1rem;
+  }
+
+  .heroContent {
+    max-width: 36rem;
+  }
+
+  .heroText {
+    font-size: 20px;
+  }
+
+  .heroSubText {
+    font-size: 20px;
+  }
+}

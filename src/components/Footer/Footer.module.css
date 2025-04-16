@@ -86,3 +86,59 @@
       background-color: #000000;
       padding: 0 10px;
 }
+
+
+/* Responsividade para tablets */
+@media (max-width: 1080px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .question {
+    font-size: 1.25rem;
+  }
+
+  .whatsappButton {
+    padding: 1rem 3rem;
+    font-size: 0.875rem;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .brand,
+  .rights {
+    text-align: center;
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+
+  .question {
+    font-size: 1rem;
+  }
+
+  .whatsappButton {
+    padding: 0.75rem 2rem;
+    font-size: 0.75rem;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .brand,
+  .rights {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}

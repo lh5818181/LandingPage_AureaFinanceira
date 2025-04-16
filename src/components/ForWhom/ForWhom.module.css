@@ -70,3 +70,43 @@
   border-radius: 1rem;
 }
 
+/* Responsividade para tablets */
+@media (max-width: 1080px) {
+  .forwhom-content {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+
+  .forwhom-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .forwhom-list {
+    font-size: 0.875rem;
+  }
+
+  .forwhom-image {
+    max-width: 380px;
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+  .forwhom-content {
+    padding: 0 1rem;
+  }
+
+  .forwhom-title {
+    font-size: 1.25rem;
+  }
+
+  .forwhom-list {
+    font-size: 0.75rem;
+  }
+
+  .forwhom-image {
+    max-width: 250px;
+  }
+}

@@ -83,3 +83,70 @@
 }
   
 
+/* Responsividade para tablets */
+@media (max-width: 1080px) {
+  .whatYouFind {
+    padding: 6rem 4rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .cards {
+    grid-template-columns:  1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .card {
+    max-width: 280px;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardText {
+    font-size: 0.875rem;
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+  .whatYouFind {
+    padding: 4rem 2rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr; /* Mantém uma coluna em smartphones */
+    gap: 1rem;
+  }
+
+  .card {
+    max-width: 240px;
+    padding: 1.5rem 1rem;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cardTitle {
+    font-size: 0.875rem;
+  }
+
+  .cardText {
+    font-size: 0.75rem;
+  }
+}
