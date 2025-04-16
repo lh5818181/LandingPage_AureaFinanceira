@@ -67,9 +67,10 @@
   gap: 0.5rem;
   background-color: #25D366;
   color: #fff;
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 4rem;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: 'Poppins';
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s ease;
